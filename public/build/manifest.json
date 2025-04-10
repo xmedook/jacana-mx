@@ -1,0 +1,68 @@
+{
+  "resources/images/arrow-2.svg": {
+    "file": "assets/arrow-2-a958dc4c.svg",
+    "src": "resources/images/arrow-2.svg"
+  },
+  "resources/images/arrow.svg": {
+    "file": "assets/arrow-9a9cf000.svg",
+    "src": "resources/images/arrow.svg"
+  },
+  "resources/images/banner-amenidades.jpg": {
+    "file": "assets/banner-amenidades-f6ef79f0.jpg",
+    "src": "resources/images/banner-amenidades.jpg"
+  },
+  "resources/images/banner-contacto.jpg": {
+    "file": "assets/banner-contacto-87d06a8c.jpg",
+    "src": "resources/images/banner-contacto.jpg"
+  },
+  "resources/images/banner-informes.jpg": {
+    "file": "assets/banner-informes-e9bb43f5.jpg",
+    "src": "resources/images/banner-informes.jpg"
+  },
+  "resources/images/beige-bg.jpg": {
+    "file": "assets/beige-bg-4a0322dc.jpg",
+    "src": "resources/images/beige-bg.jpg"
+  },
+  "resources/images/bg-contact.jpg": {
+    "file": "assets/bg-contact-e6bc6bbe.jpg",
+    "src": "resources/images/bg-contact.jpg"
+  },
+  "resources/images/brisas-bg.jpg": {
+    "file": "assets/brisas-bg-add1ef7f.jpg",
+    "src": "resources/images/brisas-bg.jpg"
+  },
+  "resources/images/footer-bg.svg": {
+    "file": "assets/footer-bg-a1cb5437.svg",
+    "src": "resources/images/footer-bg.svg"
+  },
+  "resources/images/header-pleca.svg": {
+    "file": "assets/header-pleca-0a716ef4.svg",
+    "src": "resources/images/header-pleca.svg"
+  },
+  "resources/images/header.svg": {
+    "file": "assets/header-43750a18.svg",
+    "src": "resources/images/header.svg"
+  },
+  "resources/images/home/banner.jpg": {
+    "file": "assets/banner-762d532e.jpg",
+    "src": "resources/images/home/banner.jpg"
+  },
+  "resources/images/pool.jpg": {
+    "file": "assets/pool-254ee209.jpg",
+    "src": "resources/images/pool.jpg"
+  },
+  "resources/images/white-bg.jpg": {
+    "file": "assets/white-bg-74defdfe.jpg",
+    "src": "resources/images/white-bg.jpg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-dd12ab46.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app-e20582a7.css",
+    "isEntry": true,
+    "src": "resources/scss/app.scss"
+  }
+}

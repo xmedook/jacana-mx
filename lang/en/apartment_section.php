@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'banner-txt1' => "APARTMENTS FOR SALE IN BUCERÍAS",
+    'banner-txt2' => "SEA TOGETHER",
+    'banner-txt3' => "AT JACANA OCEAN LIFE",
+    'banner-txt4' => "Enjoy a life immersed in nature at Jacana Ocean Life, an apartment building strategically located in the Golden Zone of Bucerias, in close proximity to the sea and the beautiful everyday life at Riviera Nayarit.",
+    'stories' => 'Stories',
+    'models' => 'Models',
+    'model' => 'Model',
+    'units' => 'units',
+    'inquire' => 'Inquire',
+    'vacancies' => 'vacancies',
+    'units-ocean' => 'Units with<br />ocean view',
+    'pre-sale' => 'PRE-SALE<br /><strong>APARTMENTS</strong>',
+    'select-model' => 'Select the model of your choice to know its characteristics.',
+    'gallery' => 'Gallery',
+    'title2' => 'RECEIVE A QUOTE ON <strong>YOUR BUCERÍAS APARTMENT</strong>',
+    'text2' => 'Take advantage of the best pre-sale prices! Our sales team is ready to guide you about financing plans and purchase options for your beach apartment.',
+    'contact-us' => 'Contact us',
+    'active-life' => '<strong>Active</strong> Life',
+    'social-life' => '<strong>Social</strong> Life',
+    'family-life' => '<strong>Family</strong> Life',
+    'beach-life' => '<strong>Beach</strong> Life',
+    'luxury-amenities' => 'Luxury Amenities',
+    'luxury-text' => 'Love every second of your new life at Jacana Ocean Life, from the reception area in the lobby to the social room. Enjoy top-tier amenities to turn your day into something extraordinary.',
+    'explore' => 'Explore',
+];

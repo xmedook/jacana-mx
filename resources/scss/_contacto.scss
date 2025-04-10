@@ -1,0 +1,230 @@
+#contacto {
+    .banner {
+        position: relative;
+        background: white url("/resources/images/banner-contacto.jpg") no-repeat
+            25% top;
+        background-size: cover;
+        padding-bottom: 214%;
+        @include media-breakpoint-up(md) {
+            padding-bottom: 115%;
+        }
+        @include media-breakpoint-up(lg) {
+            padding-bottom: 95%;
+        }
+        @include media-breakpoint-up(xl) {
+            padding-bottom: 80%;
+        }
+        @include media-breakpoint-up(xxl) {
+            padding-bottom: 61%;
+        }
+
+        .shadow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                270deg,
+                #6b5757 29.59%,
+                rgba(107, 87, 87, 0) 71.86%
+            );
+            opacity: 0.6;
+
+            @include media-breakpoint-up(lg) {
+                background: linear-gradient(
+                    270deg,
+                    #6b5757 49.59%,
+                    rgba(107, 87, 87, 0) 71.86%
+                );
+            }
+        }
+
+        .banner-content {
+            position: absolute;
+            top: 15%;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            color: white;
+
+            @include media-breakpoint-up(lg) {
+                top: 18%;
+            }
+
+            @include media-breakpoint-up(xl) {
+                top: 20%;
+                width: 50%;
+                left: 25%;
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 400;
+                text-transform: uppercase;
+                height: 30px;
+                line-height: 18px;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    line-height: 30px;
+                }
+            }
+
+            h1 {
+                font-size: 40px;
+                font-weight: 400;
+                height: 42px;
+                line-height: 40px;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 65px;
+                    height: 48px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 80px;
+                    height: 82px;
+                    line-height: normal;
+                }
+            }
+
+            h2 {
+                font-size: 20px;
+                font-weight: 100;
+                line-height: 20px;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 40px;
+                    line-height: 40px;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20px;
+                height: 75px;
+                margin-top: 20px;
+                padding: 0;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 18px;
+                    line-height: 20px;
+                    padding: 0 100px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    line-height: 25px;
+                    padding: 0 270px;
+                }
+
+                @include media-breakpoint-up(xl) {
+                    padding: 0 135px;
+                }
+            }
+        }
+    }
+    .contact-form {
+        background: $blue url("/resources/images/bg-contact.jpg") no-repeat 0
+            bottom;
+        background-size: cover;
+        min-height: 50vh;
+    }
+    .contact-box {
+        // position: absolute;
+        background: $beige;
+        padding: 48px 15px;
+        margin-top: -390px;
+        @include media-breakpoint-up(lg) {
+            padding: 67px 87px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            background-color: white;
+            padding: 15px 20px;
+        }
+
+        textarea {
+            height: 200px;
+            width: 100%;
+            border: 0;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 400;
+            padding: 15px 20px;
+        }
+
+        .radio-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @include media-breakpoint-up(lg) {
+                flex-direction: row;
+            }
+
+            .options {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 250px;
+                @include media-breakpoint-up(lg) {
+                    flex-direction: row;
+                    align-items: center;
+                    width: auto;
+                }
+
+                label {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            input {
+                width: 21px;
+                height: 21px;
+                margin: 10px;
+                border: 0;
+            }
+
+            strong {
+                color: $darkBlue;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+                width: 100%;
+                text-align: center;
+                @include media-breakpoint-up(lg) {
+                    width: 40%;
+                    text-align: start;
+                }
+            }
+        }
+
+        .btn-brown {
+            width: 246px;
+            font-size: 18px;
+            margin: 37px auto;
+            justify-content: center;
+            text-transform: math-auto;
+        }
+    }
+
+    .message {
+        color: white;
+        margin-top: 40px;
+
+        h6 {
+            font-weight: 100;
+            font-size: 25px;
+            @include media-breakpoint-up(lg) {
+                font-size: 50px;
+            }
+        }
+    }
+}

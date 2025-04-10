@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'banner-txt1' => "VENTA DE DEPARTAMENTOS EN BUCERÍAS",
+    'banner-txt2' => "AMAR VIVIR",
+    'banner-txt3' => "EN JACANA OCEAN LIFE",
+    'banner-txt4' => "Vive rodeado de la naturaleza en Jacana Ocean Life, un edificio de departamentos con una excelente ubicación dentro de la Zona Dorada de Bucerías, muy cerca del mar y de la increíble vida cotidiana de la Riviera Nayarit.",
+    'stories' => 'Niveles',
+    'models' => 'Modelos',
+    'model' => 'Modelo',
+    'units' => 'unidades',
+    'vacancies' => 'disponibles',
+    'inquire' => 'Pide informes',
+    'units-ocean' => 'Unidades con<br/> vista al mar',
+    'pre-sale' => 'Departamentos<br /> <strong>En Preventa</strong>',
+    'select-model' => 'Selecciona el modelo de tu elección para conocer sus características.',
+    'gallery' => 'Galería',
+    'title2' => 'COTIZA TU <strong>DEPARTAMENTO EN BUCERÍAS</strong>',
+    'text2' => '¡Aprovecha los mejores precios de preventa! Nuestro equipo de venta está listo para orientarte acerca de los planes de financiamiento y opciones de compra de tu departamento en la playa.',
+    'contact-us' => 'Contáctanos',
+    'active-life' => '<strong>Vida</strong> Activa',
+    'social-life' => '<strong>Vida</strong> Social',
+    'family-life' => '<strong>Vida</strong> Familiar',
+    'beach-life' => '<strong>Vida</strong> de Playa',
+    'luxury-amenities' => 'Amenidades de Lujo',
+    'luxury-text' => 'Amarás cada segundo de tu vida en Jacana Ocean Life, desde la recepción en el lobby hasta el social room, disfruta de las mejores amenidades para sacarle el mayor provecho a tu día.',
+    'explore' => 'Explóralas',
+];

@@ -1,0 +1,97 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
+@import "../../node_modules/magnific-popup/src/css/main.scss";
+
+$black1: #2c3648;
+$beige: #eeeee6;
+$blue: #007aed;
+$darkBlue: #003c75;
+$brown: #afab80;
+$beige2: #d9d9d9;
+$gray: #8591ad;
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+.font-outfit {
+    font-family: "Outfit", sans-serif;
+}
+@mixin btn-jacana {
+    color: $black1;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    min-width: 150px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 30px;
+}
+.btn-beige {
+    @include btn-jacana;
+    background-color: $beige;
+    &:hover {
+        background-color: $brown;
+    }
+}
+
+.btn-brown {
+    @include btn-jacana;
+    background-color: $brown;
+    color: white;
+    &:hover {
+        background-color: $beige2;
+        color: $black1;
+    }
+}
+
+.btn-darkblue {
+    @include btn-jacana;
+    background-color: $darkBlue;
+    color: white;
+    &:hover {
+        background-color: $blue;
+        color: white;
+    }
+}
+
+.form-control {
+    border-radius: 0;
+    min-height: 51px;
+    background: #eaeaea;
+}
+
+.whatsapp-button {
+    position: fixed;
+    background-color: white;
+    width: 50px;
+    right: 0;
+    top: 110px;
+    z-index: 10;
+    @include media-breakpoint-up(md) {
+        top: 185px;
+        width: 100px;
+    }
+    a {
+        padding: 4px 7px;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        @include media-breakpoint-up(md) {
+            width: 58px;
+            height: 58px;
+        }
+    }
+}
+
+@import "./header.scss";
+@import "./formContact.scss";
+@import "./footer.scss";
+@import "./home.scss";
+@import "./departamentos";
+@import "./amenidades";
+@import "./contacto";
+@import "./aviso-privacidad";
