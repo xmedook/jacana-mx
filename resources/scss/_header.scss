@@ -4,10 +4,12 @@
     width: 100%;
     position: fixed;
     height: 60px;
-    z-index: 10;
-    transition: top 0.5s ease;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.8);
     @include media-breakpoint-up(lg) {
         height: 179px;
+        background-color: transparent;
     }
     .pleca {
         background: transparent url("/resources/images/header-pleca.svg")
@@ -82,8 +84,11 @@
         color: white;
         list-style: none;
         font-size: 18px;
-        margin-top: 24px;
+        margin-top: 0;
         justify-content: space-around;
+        @include media-breakpoint-up(lg) {
+            margin-top: 24px;
+        }
         li {
             height: 40px;
             a {
@@ -93,6 +98,10 @@
                 color: white;
                 text-decoration: none;
                 padding: 0 20px;
+                transition: color 0.3s ease;
+                &:hover {
+                    color: $beige;
+                }
             }
             &:last-child {
                 background-color: $darkBlue;

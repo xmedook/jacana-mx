@@ -24,15 +24,21 @@ switch (path) {
 }
 
 //scroll header
-let prevScrollpos = window.scrollY;
+let lastScrollTop = 0;
+const header = document.querySelector('.header');
+const scrollThreshold = 100;
 
-window.onscroll = function () {
-    const currentScrollPos = window.scrollY;
-    const header = document.getElementById("header");
-    if (prevScrollpos > currentScrollPos) {
-        header.style.top = "0";
+window.addEventListener('scroll', () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    if (scrollTop > scrollThreshold) {
+        header.style.top = scrollTop > lastScrollTop ? '-60px' : '0';
+        if (window.innerWidth >= 992) {
+            header.style.top = scrollTop > lastScrollTop ? '-179px' : '0';
+        }
     } else {
-        if (currentScrollPos > 200) header.style.top = "-200px";
+        header.style.top = '0';
     }
-    prevScrollpos = currentScrollPos;
-};
+    
+    lastScrollTop = scrollTop;
+});

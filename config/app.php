@@ -212,4 +212,16 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Error Reporting
+    |--------------------------------------------------------------------------
+    |
+    | By default, Laravel will display all errors and warnings. You can
+    | customize this behavior by setting the error_reporting value.
+    |
+    */
+
+    'error_reporting' => E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED,
+
 ];
