@@ -14,16 +14,25 @@
     rel="stylesheet">
   @vite(['resources/scss/app.scss', 'resources/js/app.js'])
   @yield('social')
+  
+  @if(isset($customCode) && $customCode)
+    @if($customCode->custom_css)
+      <style>
+        {!! $customCode->custom_css !!}
+      </style>
+    @endif
+    @if($customCode->custom_js)
+      <script>
+        {!! $customCode->custom_js !!}
+      </script>
+    @endif
+  @endif
 </head>
 
 <body>
   @include('layout.header')
   <main>
-    <div class="whatsapp-button">
-      <a href="https://wa.me/+523329390134" target="_blank">
-        <img src="{{ asset('images/wa.svg') }}" alt="WhatsApp" class="img-fluid">
-      </a>
-    </div>
+
     @yield('content')
   </main>
   @include('layout.footer')

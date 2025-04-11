@@ -1,6 +1,7 @@
 <?php
 
 use App\Admin\Controllers\ContactController;
+use App\Admin\Controllers\CustomCodeController;
 use App\Admin\Controllers\DepartmentController;
 use App\Admin\Controllers\PlaceController;
 use Illuminate\Routing\Router;
@@ -18,4 +19,5 @@ Route::group([
     $router->resource('contacts', ContactController::class);
     $router->resource('departments', DepartmentController::class);
     $router->resource('places', PlaceController::class);
+    $router->resource('custom-code', CustomCodeController::class);
 });
