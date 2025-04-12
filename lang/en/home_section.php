@@ -3,6 +3,7 @@
 return [
     'banner-description' => 'Apartments in the Golden Zone of Bucerías',
     'from' => 'From',
+    'price' => '$350,000 <span>USD</span>',
     'explore' => 'Explore',
     'inquire' => 'Inquire',
     'amar-vivir-1' => 'Living by the sea is within reach,',
@@ -41,4 +42,5 @@ return [
     'amar-map' => 'ENJOY A <strong>PRIME LOCATION</strong>',
     'amar-map-2' => 'Jacana Ocean Life is just one block from the beach in the Golden Zone of Bucerías, near San Pancho, Puerto Vallarta, and Punta de Mita.',
     'video' => '<strong>SEA</strong> TOGETHER AT JACANA',
+    'tour-360' => 'See construction progress - 360° Tour',
 ];

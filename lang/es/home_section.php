@@ -3,6 +3,7 @@
 return [
     'banner-description' => 'Departamentos de la Zona Dorada de Bucerías',
     'from' => 'Desde',
+    'price' => '$7,000,000 <span>MXN</span>',
     'explore' => 'Explóralo',
     'inquire' => 'Pide informes',
     'amar-vivir-1' => 'Amarás vivir cerca del mar,',
@@ -41,4 +42,5 @@ return [
     'amar-map' => 'Amar su <strong>Cercanía</strong>',
     'amar-map-2' => 'Situado a una cuadra de la playa en la Zona Dorada de Bucerías, y muy cerca de poblados como Sayulita, San Pancho, Puerto Vallarta y Punta de Mita.',
     'video' => '<strong>AMAR</strong> TU VIDA EN JACANA',
+    'tour-360' => 'Conoce el avance de obra - Recorrido 360',
 ];

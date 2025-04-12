@@ -12,14 +12,17 @@
                     </div>
                     <div class="banner__price mt-2 font-outfit">
                         <span>{{ __('home_section.from') }}</span>
-                        <p class="price">$350,000 <span>USD</span></p>
-                        <p class="price">$7,000,000 <span>MXN</span></p>
+                        <p class="price">{!! __('home_section.price') !!}</p>
                     </div>
-                    <div class="buttons">
+                    <div class="buttons d-flex justify-content-between">
                         <a href="{{ (app()->getLocale() == 'en') ? " /en" : "" }}/departamentos"
-                            class="btn btn-beige">{{ __('home_section.explore') }}</a>
-                        <a href="{{ (app()->getLocale() == 'en') ? " /en" : "" }}/contacto" class="btn btn-beige">{{
+                            class="btn btn-beige w-50 me-1">{{ __('home_section.explore') }}</a>
+                        <a href="{{ (app()->getLocale() == 'en') ? " /en" : "" }}/contacto" class="btn btn-beige w-50 ms-1">{{
                             __('home_section.inquire') }}</a>
+                    </div>
+                    <div class="buttons mt-2">
+                        <a href="https://panoraven.com/es/embed/KMQ7FMOfbI" class="btn btn-beige w-100" target="_blank">{{
+                            __('home_section.tour-360') }}</a>
                     </div>
                 </div>
             </div>
